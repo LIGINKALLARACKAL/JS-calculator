@@ -72,7 +72,7 @@ function clear() {
   }
 
   function roundResult(number) {
-    return Math.round(number * 1000) / 1000
+    return Math.round(number * 100000) / 100000
   }
 
   function handleKeyboardInput(e) {

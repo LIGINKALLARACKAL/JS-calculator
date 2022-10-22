@@ -50,7 +50,8 @@
   }
   
   .calculator {
-    width: 400px;
+    width: 300px;
+    height: 530px;
     border: 2px var(--border) solid;
     border-radius: 15px;
     padding: 20px;
