@@ -54,7 +54,7 @@ function clear() {
         return substract(a, b)
       case '*':
         return multiply(a, b)
-      case '÷':
+      case '/':
         if (b === 0) return null
         else return divide(a, b)
       default:
@@ -93,7 +93,7 @@ function clear() {
   }
   function evaluate() {
     if (currentOperation === null || shouldResetScreen) return
-    if (currentOperation === '÷' && currentOperationScreen.textContent === '0') {
+    if (currentOperation === '/' && currentOperationScreen.textContent === '0') {
       alert("can't divide by 0!")
       return
     }
